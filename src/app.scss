@@ -1,0 +1,22 @@
+@import './styles/variables';
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: #f1f0f0;
+    padding-inline: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+
+.curve {
+    background-color: #fff;
+    border-radius: $base-radius;
+    padding: 1rem;
+}

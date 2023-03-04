@@ -4,10 +4,10 @@ import './bottomHalf.scss'
 function BottomHalf() {
   return (
     <section className='bottom-half'>
-     <div className="curve one">1</div>
-     <div className="curve two">2</div>
-     <div className="curve three">3</div>
-     <div className="curve four">4</div>
+     <div className="curve one">about me</div>
+     <div className="curve two">picture</div>
+     <div className="curve three">more blog</div>
+     <div className="curve four">contact</div>
     </section>
   )
 }

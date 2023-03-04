@@ -2,15 +2,12 @@
 
 .top-half{
     width: 100%;
-    height: 150vh;
+    height: 100%;
     scroll-snap-align: start;
-    padding-top: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px 100px 150px 500px;
-    // grid-template-rows: auto;
-    // grid-auto-rows: auto;
     gap: 1.25rem;
+    padding-top: 1rem;
     
     .one{
         order: 2;
@@ -30,12 +27,42 @@
     .six{
         order: 6;
     }
-    @media (min-width: 720px) {
+    @media (min-width: 768px) {
+        height: 100vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        .one {
+            grid-column: 1/2;
+            order: 1;
+        }
+        
+        .two {
+            order: 4;
+            grid-column: 1/-1;
+        }
+        .three {
+            order: 2;
+            grid-column: 2/-1;
+        }
+        .four{
+            order: 5;
+            grid-column: 1/2;
+        }
+        .five {
+            grid-column: 1/-1;
+            order: 3;
+        }
+        .six {
+            grid-column: 2/-1;
+
+        }
+
+    }
+    @media (min-width: 1024px) {
         height: 150vh;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 1.5rem;
-        padding-top: unset;
         padding-top: 1rem;
 
         .one{

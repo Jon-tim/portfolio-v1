@@ -1,0 +1,9 @@
+.date {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+	p {
+		text-align: right;
+		font-size: 0.8rem;
+	}
+}

@@ -1,9 +1,7 @@
-import React from 'react'
-import './curved.scss'
+import React from "react";
+import "./curved.scss";
 function CurveContainer(props) {
-  return (
-    <section className='curve'>{props.children}</section>
-  )
+	return <section className="curve">{props.children}</section>;
 }
 
-export default CurveContainer
+export default CurveContainer;

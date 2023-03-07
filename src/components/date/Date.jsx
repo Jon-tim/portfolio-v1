@@ -13,6 +13,7 @@ function MakeDate() {
 	return (
 		<div className="date">
 			<p>{date.toLocaleTimeString()}</p>
+			<span></span>
 			<p>{date.toDateString()}</p>
 		</div>
 	);

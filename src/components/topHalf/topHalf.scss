@@ -23,6 +23,8 @@
 		color: $darkGrey;
 		display: flex;
 		flex-direction: column;
+		// align-items: center;
+		justify-content: center;
 		gap: 0.7rem;
 		h1 {
 			font-size: 2rem;
@@ -37,13 +39,40 @@
 		height: 400px;
 	}
 	.three {
-		display: flex;
+		display: grid;
 		align-items: center;
-		justify-content: space-between;
-		height: 70px;
+		justify-content: center;
+		height: 200px;
 		order: 1;
 		background-color: $blue;
 		color: #fff;
+		position: relative;
+		overflow: hidden;
+		#bg {
+			left: -25%;
+			fill: #fff;
+			width: 80%;
+			opacity: 0.1;
+			position: absolute;
+			@media (min-width: 768px) {
+				left: -60%;
+				width: 120%;
+			}
+		}
+		.logo-box {
+			justify-self: center;
+			align-self: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				fill: $red;
+				@media (min-width: 768px) {
+					width: 100px;
+					height: 100px;
+				}
+			}
+		}
 
 		h1 {
 			color: $grey;
@@ -54,7 +83,6 @@
 	}
 	.four {
 		order: 4;
-		code,
 		p {
 			line-height: 1.4;
 			color: $darkGrey;
@@ -67,6 +95,7 @@
 	.six {
 		order: 6;
 	}
+	
 	@media (min-width: 768px) {
 		height: 100vh;
 		grid-template-columns: repeat(2, 1fr);

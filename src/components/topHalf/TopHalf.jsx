@@ -1,6 +1,7 @@
 import React from "react";
 import "./topHalf.scss";
 import MakeDate from "../date/Date";
+import { BiLinkExternal } from "react-icons/bi";
 
 function TopHalf() {
 	return (
@@ -27,9 +28,7 @@ function TopHalf() {
 					viewBox="0 0 920.12 1166.97"
 					id="bg"
 				>
-					<g
-						data-name="Layer 1"
-					>
+					<g data-name="Layer 1">
 						<g>
 							<path
 								className="cls-1"
@@ -73,19 +72,44 @@ function TopHalf() {
 			</div>
 			<div className="curve four">
 				<p>
-					Some things are not meant to be disputed in our world. For
-					example, it's more fun to have cats than dogs; Tigers,
-					though easily back out, are more powerful than Lions; Life
-					is, in itself, meaningless, we are the ones striving to make
-					meanings and sense out of it! <br />
+					I am quite interested in the roles and application of internet of things to the fields of Defence and Agriculture in Africa.
+					<br />
+					<br />
+					Sometimes, I put my thoughts on paper in the areas of
+					politics, life and humanity!
+					<br />
+					<br />
+					<strong>I stan the following:</strong>
+					<br />
+					Cats &gt; dogs;
+					<br />
+					Tigers &gt; Lions;
+					<br />
+					Life is, in itself, meaningless, we are the ones striving to
+					make meanings and sense out of it!
 				</p>
 				<br />
 				<code>
 					If you disagree, ways to reach me are just a scroll away!
 				</code>
 			</div>
-			<div className="curve five">5. random slide show</div>
-			<div className="curve six">6. blog</div>
+			{/* <div className="curve five">5. random slide show</div> */}
+			<div className="curve six">
+				<a
+					href="#"
+					className="blog-top"
+				>
+					<div className="blog-link">
+						<p>BLOG</p>
+					</div>
+					<div>
+						<h3>
+							MY PEN TO PAPER IS: <span>LETHAL</span>
+						</h3>
+						<BiLinkExternal className="link-icon" />
+					</div>
+				</a>
+			</div>
 		</section>
 	);
 }

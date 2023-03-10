@@ -2,7 +2,7 @@ import React from "react";
 import "./bottomHalf.scss";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoMailSharp } from "react-icons/io5";
-import github from "../../../public/github-mark.png";
+import github from "../../assets/images/github-mark.png";
 function BottomHalf() {
 	const date = new Date();
 	let year = date.getFullYear();

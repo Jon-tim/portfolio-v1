@@ -8,8 +8,10 @@ function BottomHalf() {
 	let year = date.getFullYear();
 	return (
 		<section className="bottom-half">
-			<div className="curve one">about me</div>
-			<div className="curve two">picture</div>
+			<div className="curve one-two">
+				<div className="curve one">about me</div>
+				<div className="curve two">picture</div>
+			</div>
 			<div className="curve three">
 				<a
 					href="#"

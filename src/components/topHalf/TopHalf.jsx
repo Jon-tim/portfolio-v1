@@ -14,7 +14,7 @@ function TopHalf() {
 					A software developer based in Lagos, Nigeria. Some times, I
 					use water, keystrokes and algorithms to solve problems
 					<i>
-						<code>-don't even ask me how.</code>
+						<code> -don't even ask me how. </code>
 					</i>
 					Other times, I use code to build bridges between people and
 					technology.
@@ -72,18 +72,17 @@ function TopHalf() {
 			<div className="curve four">
 				<p>
 					I am quite interested in the roles and application of
-					internet of things to the fields of Defence and Agriculture
+					internet of things in the fields of Defence and Agriculture, especially
 					in Africa.
+					<br />
 					<br />
 					Sometimes, I put my thoughts on paper in the areas of
 					politics, life and humanity!
-					<br />
-					Life is, in itself, meaningless, we are the ones striving to
-					make meanings and sense out of it!
 				</p>
 				<br />
 				<code>
-					If you disagree, ways to reach me are just a scroll away!
+					Life is, in itself, meaningless, we are the ones striving to
+					make meanings and sense out of it!
 				</code>
 			</div>
 		</section>

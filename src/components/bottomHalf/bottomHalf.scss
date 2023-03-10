@@ -8,8 +8,9 @@
 	grid-template-rows: 400px 200px 200px auto;
 	grid-template-columns: 1fr;
 	gap: 1.25rem;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	padding: 1rem;
+	// padding-bottom: 1rem;
+	// padding-top: 1rem;
 	.one,
 	.two,
 	.three,
@@ -17,15 +18,59 @@
 		padding: 1.5rem;
 	}
 
+	.three {
+		order: 6;
+		height: 300px;
+		background-image: url("../../assets/images/skeleton.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: background-size 0.3s linear;
+		&:hover {
+			&:hover .blog-link {
+				background-color: $red;
+				color: #fff;
+			}
+		}
+
+		.blog-top {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			text-decoration: none;
+			svg {
+				fill: #fff;
+				font-size: 1.25rem;
+			}
+			h3 {
+				color: #fff;
+				font-size: 1.7rem;
+				span {
+					font-size: inherit;
+					font-weight: inherit;
+					color: $red;
+				}
+			}
+			.blog-link {
+				margin-bottom: 1.2rem;
+				color: $red;
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				background-color: #fff;
+				padding: 0.4rem 0.6rem;
+				width: max-content;
+				border-radius: 0.3rem;
+				letter-spacing: 1px;
+				transition: background-color 0.2s linear;
+			}
+		}
+	}
+
 	.contact {
 		display: flex;
 		flex-direction: column;
-		// align-items: center;
 		justify-content: space-between;
-		// background-image: url("../../assets/images/fingers.jpg");
-		// background-repeat: no-repeat;
-		// background-size: cover;
-		// filter: opacity(.5);
 		gap: 2rem;
 
 		hr {
@@ -105,6 +150,7 @@
 	}
 	@media (min-width: 1024px) {
 		height: 100vh;
+		// height: 100%;
 		grid-template-rows: repeat(2, 1fr);
 		grid-template-columns: repeat(7, 1fr);
 		gap: 1.5rem;

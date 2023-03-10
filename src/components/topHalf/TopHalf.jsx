@@ -11,9 +11,8 @@ function TopHalf() {
 					OLUWATIMILEHIN <br /> AWONIYI
 				</h1>
 				<p>
-					I am a software developer based in Lagos, Nigeria. Some
-					times, I use water, keystrokes and algorithms to solve
-					problems
+					A software developer based in Lagos, Nigeria. Some times, I
+					use water, keystrokes and algorithms to solve problems
 					<i>
 						<code>-don't even ask me how.</code>
 					</i>
@@ -72,18 +71,12 @@ function TopHalf() {
 			</div>
 			<div className="curve four">
 				<p>
-					I am quite interested in the roles and application of internet of things to the fields of Defence and Agriculture in Africa.
-					<br />
+					I am quite interested in the roles and application of
+					internet of things to the fields of Defence and Agriculture
+					in Africa.
 					<br />
 					Sometimes, I put my thoughts on paper in the areas of
 					politics, life and humanity!
-					<br />
-					<br />
-					<strong>I stan the following:</strong>
-					<br />
-					Cats &gt; dogs;
-					<br />
-					Tigers &gt; Lions;
 					<br />
 					Life is, in itself, meaningless, we are the ones striving to
 					make meanings and sense out of it!
@@ -92,23 +85,6 @@ function TopHalf() {
 				<code>
 					If you disagree, ways to reach me are just a scroll away!
 				</code>
-			</div>
-			{/* <div className="curve five">5. random slide show</div> */}
-			<div className="curve six">
-				<a
-					href="#"
-					className="blog-top"
-				>
-					<div className="blog-link">
-						<p>BLOG</p>
-					</div>
-					<div>
-						<h3>
-							MY PEN TO PAPER IS: <span>LETHAL</span>
-						</h3>
-						<BiLinkExternal className="link-icon" />
-					</div>
-				</a>
 			</div>
 		</section>
 	);

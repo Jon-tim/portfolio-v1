@@ -1,8 +1,8 @@
 import React from "react";
 import "./bottomHalf.scss";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { IoMailSharp } from "react-icons/io5";
 import github from "../../assets/images/github-mark.png";
+import { BiLinkExternal } from "react-icons/bi";
+
 function BottomHalf() {
 	const date = new Date();
 	let year = date.getFullYear();
@@ -10,7 +10,22 @@ function BottomHalf() {
 		<section className="bottom-half">
 			<div className="curve one">about me</div>
 			<div className="curve two">picture</div>
-			<div className="curve three">more blog</div>
+			<div className="curve three">
+				<a
+					href="#"
+					className="blog-top"
+				>
+					<div className="blog-link">
+						<p>BLOG</p>
+					</div>
+					<div>
+						<h3>
+							MY PEN TO PAPER IS: <span>LETHAL</span>
+						</h3>
+						<BiLinkExternal className="link-icon" />
+					</div>
+				</a>
+			</div>
 			<div className="curve four contact">
 				<h3>Just a click away:</h3>
 				<div className="icons">

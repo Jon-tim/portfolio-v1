@@ -119,11 +119,12 @@ function BottomHalf() {
 						</svg>
 					</a>
 				</div>
-				<hr />
+				<code>{year}</code>
+
+				{/* <hr />
 				<div className="copyright">
 					<code>Developed with love</code>
-					<code>{year}</code>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);

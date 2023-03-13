@@ -2,6 +2,7 @@ import React from "react";
 import "./bottomHalf.scss";
 import github from "../../assets/images/github-mark.png";
 import { BiLinkExternal } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function BottomHalf() {
 	const date = new Date();
@@ -13,8 +14,8 @@ function BottomHalf() {
 				<div className="curve two">picture</div>
 			</div>
 			<div className="curve three">
-				<a
-					href="#"
+				<Link
+					to={"/blog"}
 					className="blog-top"
 				>
 					<div className="blog-link">
@@ -26,7 +27,7 @@ function BottomHalf() {
 						</h3>
 						<BiLinkExternal className="link-icon" />
 					</div>
-				</a>
+				</Link>
 			</div>
 			<div className="curve four contact">
 				<h3>Just a click away:</h3>

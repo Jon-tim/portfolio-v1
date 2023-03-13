@@ -76,8 +76,7 @@ function TopHalf() {
 					in Africa.
 					<br />
 					<br />
-					Sometimes, I put my thoughts on paper in the areas of
-					politics, life and humanity!
+					Sometimes, I put my thoughts on paper in the areas of technology, politics, life and humanity!
 				</p>
 				<br />
 				<code>

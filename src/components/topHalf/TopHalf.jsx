@@ -19,8 +19,7 @@ function TopHalf() {
 					technology.
 				</p>
 			</div>
-			{/* <WorkSwipes /> */}
-			<Swiperjs></Swiperjs>
+			<Swiperjs />
 			<div className="curve three">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

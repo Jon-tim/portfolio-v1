@@ -1,8 +1,7 @@
 import React from "react";
 import "./topHalf.scss";
 import MakeDate from "../date/Date";
-import { BiLinkExternal } from "react-icons/bi";
-
+import Swiperjs from "../works/WorkSlides";
 function TopHalf() {
 	return (
 		<section className="top-half">
@@ -20,7 +19,8 @@ function TopHalf() {
 					technology.
 				</p>
 			</div>
-			<div className="curve two">2. portfolio</div>
+			{/* <WorkSwipes /> */}
+			<Swiperjs></Swiperjs>
 			<div className="curve three">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -72,11 +72,12 @@ function TopHalf() {
 			<div className="curve four">
 				<p>
 					I am quite interested in the roles and application of
-					internet of things in the fields of Defence and Agriculture, especially
-					in Africa.
+					internet of things in the fields of Defence and Agriculture,
+					especially in Africa.
 					<br />
 					<br />
-					Sometimes, I put my thoughts on paper in the areas of technology, politics, life and humanity!
+					Sometimes, I put my thoughts on paper in the areas of
+					technology, politics, life and humanity!
 				</p>
 				<br />
 				<code>

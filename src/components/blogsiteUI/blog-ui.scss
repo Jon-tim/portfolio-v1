@@ -1,6 +1,7 @@
 @import "../../styles/variables";
 
 .blogUI {
+	padding-top: 1rem;
 	display: flex;
 	align-items: center;
 	gap: 1rem;
@@ -9,10 +10,23 @@
 		width: 100px;
 		height: 100px;
 		object-fit: cover;
-		object-position: center;
+		object-position: top;
 	}
 	h1 {
 		font-size: 1.5rem;
-		text-transform: capitalize;
+		// text-transform: capitalize;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	// flex-direction: row;
+	// width: 50%;
+	.blogUI:not(:first-of-type) {
+		padding-top: 1rem;
+		border-top: 1px solid $grey;
+	}
+
+	.blogUI:first-of-type {
+		padding-top: 0px;
 	}
 }

@@ -23,7 +23,6 @@ function Blogpage() {
 			.then((data) => setPost(data))
 			.catch(console.error);
 	}, []);
-	// console.log(postData);
 
 	return (
 		<section className="blog-container">
@@ -40,13 +39,14 @@ function Blogpage() {
 				<section className="other-blogs">
 					{postData &&
 						postData.map((post, index) => (
-							<>
-								<hr />
-								<BlogUI
-									postImg={post.mainImage.asset.url}
-									postTitle={post.title}
-								/>
-							</>
+							// <>
+							// <hr />
+							<BlogUI
+								key={index}
+								postImg={post.mainImage.asset.url}
+								postTitle={post.title}
+							/>
+							// </>
 						))}
 				</section>
 			</section>
